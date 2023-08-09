@@ -1,0 +1,125 @@
+.full-saf {
+    display: block;
+    margin: 0 auto;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.--image-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-left: 35%;
+    position: absolute;
+    top: -5%;
+}
+
+.boat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    width: 100%;
+
+}
+
+.welcoming h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #11cc11e1;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.welcoming p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.input-1 {
+    display: block;
+    margin-left: 20%;
+
+}
+
+.input-1 input {
+    width: 80%;
+    height: 6vh;
+    margin-top: 2rem;
+    display: block;
+}
+
+.input-1 p {
+    display: flex;
+
+    margin-left: 50%;
+    margin-top: 0.5rem;
+    color: #37c237e1;
+    text-decoration: underline;
+    font-weight: 500;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.saf-btn .saf-btn2 {
+    background: #8b8989;
+    color: #fff;
+    border-radius: 25px;
+    width: 70%;
+    height: 8vh;
+    font-weight: 550;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.saf-btn .saf-btn2:hover {
+    background: #09ee09;
+}
+
+.saf-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-reg p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.1rem;
+    font-size: 1.1rem;
+}
+
+.not-reg p span {
+    color: #09ee09;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.reg-terms {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.reg-terms p {
+    color: #b189b1af;
+}
+
+/* min-width */
+
+@media (min-width:500px) {
+    .--image-1 {
+       
+    }
+}
